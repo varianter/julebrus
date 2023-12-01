@@ -7,6 +7,8 @@ type Soda = {
   id: number;
 };
 
+export const fetchCache = "force-no-store";
+
 export default function Home() {
   let [sodaArray, setSodaArray] = useState<Soda[]>([]);
 
