@@ -1,7 +1,7 @@
 import prisma from "../../../prisma/prisma";
 
 export async function GET() {
-  const votes = (await prisma?.vote.findMany()) ?? [];
+  const votes = (await prisma?.rating.findMany()) ?? [];
   return Response.json(votes);
 }
 
@@ -11,15 +11,15 @@ export async function POST(request: Request) {
     taste,
     smell,
     color,
-  }: { julebrusId: number; taste: number; smell: number; color: number } =
+  }: { julebrusId: string; taste: string; smell: string; color: string } =
     await request.json();
 
-  const createdVote = await prisma?.vote.create({
+  const createdVote = await prisma.rating.create({
     data: {
-      julebrusId,
-      taste,
-      smell,
-      color,
+      julebrusId: parseInt(julebrusId),
+      taste: parseInt(taste),
+      smell: parseInt(smell),
+      color: parseInt(color),
     },
   });
 

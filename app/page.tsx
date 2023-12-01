@@ -9,7 +9,7 @@ export default function Home() {
     const formData = new FormData(event.currentTarget);
     const data = Object.fromEntries(formData.entries());
 
-    await fetch("/api/vote", {
+    await fetch("/api/votes", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
