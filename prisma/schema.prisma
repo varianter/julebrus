@@ -13,7 +13,6 @@ datasource db {
 
 model Julebrus {
   id             Int      @id @default(autoincrement())
-  name           String   @unique
   classifiedName String   @unique
   ratings        Rating[]
 }

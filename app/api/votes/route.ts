@@ -1,3 +1,5 @@
+import prisma from "../../../prisma/prisma";
+
 export async function GET() {
   const votes = (await prisma?.vote.findMany()) ?? [];
   return Response.json(votes);
