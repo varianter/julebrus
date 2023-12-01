@@ -64,7 +64,7 @@ export default function Home() {
         <h1 className="text-4xl font-bold">Variants favorittjulebrus</h1>
         {sodaArray.length !== 0 && (
           <>
-            <label htmlFor="soda">
+            <label htmlFor="julebrusId">
               Brus:
               <br />
               <select id="julebrusId" name="julebrusId">
