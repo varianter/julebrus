@@ -20,7 +20,7 @@ export default function Home() {
   function getSodaArray() {
     const voted = localStorage.getItem("voted-sodas") ?? "";
 
-    fetch("/api/julebrus")
+    fetch("/api/julebrus", { cache: "no-store" })
       .then((response) => response.json())
       .then((data: Soda[]) => {
         data.sort((a, b) => a.id - b.id);
