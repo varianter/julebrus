@@ -17,6 +17,8 @@ export default function Home() {
   const [smell, setSmell] = useState(0);
   const [taste, setTaste] = useState(0);
 
+  const [errorMessage, setErrorMessage] = useState("");
+
   function getSodaArray() {
     const voted = localStorage.getItem("voted-sodas") ?? "";
 
@@ -38,6 +40,11 @@ export default function Home() {
   const handleSubmit = async (event: any) => {
     event.preventDefault();
 
+    if (color === 0 || smell === 0 || taste === 0) {
+      setErrorMessage("Du må velge en verdi for alle kategorier!");
+      return;
+    }
+
     const formData = new FormData(event.currentTarget);
     const data = {
       ...Object.fromEntries(formData.entries()),
@@ -45,7 +52,6 @@ export default function Home() {
       smell,
       taste,
     } as any;
-    console.table(data);
 
     const response = await fetch("/api/votes", {
       method: "POST",
@@ -73,6 +79,7 @@ export default function Home() {
       <form
         className="flex flex-col gap-4 bg-[#F2E8CF] p-4 rounded max-w-sm z-10"
         onSubmit={handleSubmit}
+        onClick={() => setErrorMessage("")}
       >
         <h1 className="text-2xl font-bold mb-8">
           Variants årlige juletradisjon der vi stemmer på hvilken julebrus som
@@ -119,6 +126,9 @@ export default function Home() {
             <button type="submit" className="bg-[#6A994E] rounded py-2 mt-8">
               Send inn
             </button>
+            {errorMessage && (
+              <p className="text-red-500 text-sm mt-4">{errorMessage}</p>
+            )}
           </>
         )}
         {hasLoaded && sodaArray.length === 0 && (
