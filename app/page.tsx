@@ -17,7 +17,9 @@ export default function Home() {
       .then((response) => response.json())
       .then((data: Soda[]) => {
         data.sort((a, b) => a.id - b.id);
-        setSodaArray(data.filter((soda) => voted.includes(soda.id) === false));
+        setSodaArray(
+          data.filter((soda) => voted.includes(soda.id.toString()) === false)
+        );
       });
   }
 
