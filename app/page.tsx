@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className='flex min-h-screen flex-col p-8'>
       <h1 className='text-4xl font-bold'>Julebrus</h1>
-      <form action='/api/vote' className='flex flex-col gap-4'>
+      <form action='/api/vote' method='post' className='flex flex-col gap-4'>
         <label htmlFor='soda'>
           Brus:
           <br />
