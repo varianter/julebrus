@@ -7,7 +7,7 @@ interface RadioInputProps {
 
 const RadioInput = ({ id, name, label, maxValue = 5 }: RadioInputProps) => {
   return (
-    <fieldset className="">
+    <fieldset>
       <legend>{label}</legend>
       <div className="flex gap-4">
         {Array.from(Array(maxValue).keys()).map((i) => (
