@@ -11,6 +11,11 @@ export const fetchCache = "force-no-store";
 
 export default function Home() {
   let [sodaArray, setSodaArray] = useState<Soda[]>([]);
+  let [hasLoaded, setHasLoaded] = useState<boolean>(false);
+
+  const [color, setColor] = useState(0);
+  const [smell, setSmell] = useState(0);
+  const [taste, setTaste] = useState(0);
 
   function getSodaArray() {
     const voted = localStorage.getItem("voted-sodas") ?? "";
@@ -22,7 +27,8 @@ export default function Home() {
         setSodaArray(
           data.filter((soda) => voted.includes(soda.id.toString()) === false)
         );
-      });
+      })
+      .then(() => setHasLoaded(true));
   }
 
   useEffect(() => {
@@ -33,7 +39,13 @@ export default function Home() {
     event.preventDefault();
 
     const formData = new FormData(event.currentTarget);
-    const data = Object.fromEntries(formData.entries());
+    const data = {
+      ...Object.fromEntries(formData.entries()),
+      color,
+      smell,
+      taste,
+    } as any;
+    console.table(data);
 
     const response = await fetch("/api/votes", {
       method: "POST",
@@ -52,24 +64,30 @@ export default function Home() {
       );
     }
 
-    (
-      document.getElementById("why-am-i-using-id-for-this") as HTMLFormElement
-    ).reset();
+    setColor(0);
+    setSmell(0);
+    setTaste(0);
   };
   return (
-    <main className="flex min-h-screen flex-col pt-16 p-8 bg-[#bc4749]">
+    <main className="flex min-h-screen flex-col pt-16 p-8 items-center">
       <form
-        className="flex flex-col gap-4 bg-[#F2E8CF] p-4 rounded"
-        id="why-am-i-using-id-for-this"
+        className="flex flex-col gap-4 bg-[#F2E8CF] p-4 rounded max-w-sm z-10"
         onSubmit={handleSubmit}
       >
-        <h1 className="text-4xl font-bold">Variants favorittjulebrus</h1>
-        {sodaArray.length !== 0 && (
+        <h1 className="text-2xl font-bold mb-8">
+          Variants årlige juletradisjon der vi stemmer på hvilken julebrus som
+          er best
+        </h1>
+        {(!hasLoaded || sodaArray.length !== 0) && (
           <>
             <label htmlFor="julebrusId">
               Brus:
               <br />
-              <select id="julebrusId" name="julebrusId">
+              <select
+                id="julebrusId"
+                name="julebrusId"
+                className="mb-4 p-2 min-w-[15rem] rounded"
+              >
                 {sodaArray.map((soda: any) => (
                   <option key={`select-brus-${soda.id}`} value={soda.id}>
                     Brus {soda.id}
@@ -77,13 +95,33 @@ export default function Home() {
                 ))}
               </select>
             </label>
-            <RadioInput id="color" name="color" label="Farge:" />
-            <RadioInput id="smell" name="smell" label="Lukt:" />
-            <RadioInput id="taste" name="taste" label="Smak:" />
-            <input type="submit" />
+            <RadioInput
+              id="color"
+              name="color"
+              label="Farge:"
+              value={color}
+              setter={setColor}
+            />
+            <RadioInput
+              id="smell"
+              name="smell"
+              label="Lukt:"
+              value={smell}
+              setter={setSmell}
+            />
+            <RadioInput
+              id="taste"
+              name="taste"
+              label="Smak:"
+              value={taste}
+              setter={setTaste}
+            />
+            <button type="submit" className="bg-[#6A994E] rounded py-2 mt-8">
+              Send inn
+            </button>
           </>
         )}
-        {sodaArray.length === 0 && (
+        {hasLoaded && sodaArray.length === 0 && (
           <>
             <p className="text-xl">Du har stemt på all julebrusen!</p>
             <p className="text-l">Resultatene kommer snart 🎅🏻</p>
