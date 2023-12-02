@@ -1,0 +1,1055 @@
+[
+  {
+    "id": 34,
+    "taste": 1,
+    "smell": 2,
+    "color": 4,
+    "julebrusId": 1,
+    "julebrus": { "id": 1, "classifiedName": "Nøisom Gamlebyens" },
+    "createdAt": "2023-12-01T17:36:53.644Z"
+  },
+  {
+    "id": 35,
+    "taste": 1,
+    "smell": 1,
+    "color": 2,
+    "julebrusId": 1,
+    "julebrus": { "id": 1, "classifiedName": "Nøisom Gamlebyens" },
+    "createdAt": "2023-12-01T17:36:53.743Z"
+  },
+  {
+    "id": 36,
+    "taste": 3,
+    "smell": 2,
+    "color": 1,
+    "julebrusId": 1,
+    "julebrus": { "id": 1, "classifiedName": "Nøisom Gamlebyens" },
+    "createdAt": "2023-12-01T17:36:57.505Z"
+  },
+  {
+    "id": 37,
+    "taste": 2,
+    "smell": 1,
+    "color": 2,
+    "julebrusId": 1,
+    "julebrus": { "id": 1, "classifiedName": "Nøisom Gamlebyens" },
+    "createdAt": "2023-12-01T17:37:03.308Z"
+  },
+  {
+    "id": 38,
+    "taste": 1,
+    "smell": 3,
+    "color": 2,
+    "julebrusId": 1,
+    "julebrus": { "id": 1, "classifiedName": "Nøisom Gamlebyens" },
+    "createdAt": "2023-12-01T17:37:12.690Z"
+  },
+  {
+    "id": 39,
+    "taste": 1,
+    "smell": 3,
+    "color": 4,
+    "julebrusId": 2,
+    "julebrus": { "id": 2, "classifiedName": "Oppegard" },
+    "createdAt": "2023-12-01T17:37:22.121Z"
+  },
+  {
+    "id": 40,
+    "taste": 2,
+    "smell": 3,
+    "color": 2,
+    "julebrusId": 1,
+    "julebrus": { "id": 1, "classifiedName": "Nøisom Gamlebyens" },
+    "createdAt": "2023-12-01T17:37:25.460Z"
+  },
+  {
+    "id": 41,
+    "taste": 2,
+    "smell": 2,
+    "color": 1,
+    "julebrusId": 1,
+    "julebrus": { "id": 1, "classifiedName": "Nøisom Gamlebyens" },
+    "createdAt": "2023-12-01T17:37:29.482Z"
+  },
+  {
+    "id": 42,
+    "taste": 1,
+    "smell": 3,
+    "color": 2,
+    "julebrusId": 2,
+    "julebrus": { "id": 2, "classifiedName": "Oppegard" },
+    "createdAt": "2023-12-01T17:37:30.985Z"
+  },
+  {
+    "id": 43,
+    "taste": 3,
+    "smell": 4,
+    "color": 2,
+    "julebrusId": 1,
+    "julebrus": { "id": 1, "classifiedName": "Nøisom Gamlebyens" },
+    "createdAt": "2023-12-01T17:37:31.389Z"
+  },
+  {
+    "id": 44,
+    "taste": 1,
+    "smell": 2,
+    "color": 3,
+    "julebrusId": 1,
+    "julebrus": { "id": 1, "classifiedName": "Nøisom Gamlebyens" },
+    "createdAt": "2023-12-01T17:37:34.289Z"
+  },
+  {
+    "id": 45,
+    "taste": 1,
+    "smell": 1,
+    "color": 1,
+    "julebrusId": 1,
+    "julebrus": { "id": 1, "classifiedName": "Nøisom Gamlebyens" },
+    "createdAt": "2023-12-01T17:37:41.445Z"
+  },
+  {
+    "id": 46,
+    "taste": 1,
+    "smell": 1,
+    "color": 2,
+    "julebrusId": 2,
+    "julebrus": { "id": 2, "classifiedName": "Oppegard" },
+    "createdAt": "2023-12-01T17:37:44.561Z"
+  },
+  {
+    "id": 47,
+    "taste": 2,
+    "smell": 3,
+    "color": 3,
+    "julebrusId": 2,
+    "julebrus": { "id": 2, "classifiedName": "Oppegard" },
+    "createdAt": "2023-12-01T17:37:46.565Z"
+  },
+  {
+    "id": 48,
+    "taste": 1,
+    "smell": 1,
+    "color": 1,
+    "julebrusId": 2,
+    "julebrus": { "id": 2, "classifiedName": "Oppegard" },
+    "createdAt": "2023-12-01T17:37:46.626Z"
+  },
+  {
+    "id": 49,
+    "taste": 1,
+    "smell": 1,
+    "color": 2,
+    "julebrusId": 1,
+    "julebrus": { "id": 1, "classifiedName": "Nøisom Gamlebyens" },
+    "createdAt": "2023-12-01T17:37:46.883Z"
+  },
+  {
+    "id": 50,
+    "taste": 2,
+    "smell": 3,
+    "color": 2,
+    "julebrusId": 2,
+    "julebrus": { "id": 2, "classifiedName": "Oppegard" },
+    "createdAt": "2023-12-01T17:37:55.276Z"
+  },
+  {
+    "id": 51,
+    "taste": 1,
+    "smell": 1,
+    "color": 2,
+    "julebrusId": 2,
+    "julebrus": { "id": 2, "classifiedName": "Oppegard" },
+    "createdAt": "2023-12-01T17:38:01.667Z"
+  },
+  {
+    "id": 52,
+    "taste": 1,
+    "smell": 2,
+    "color": 1,
+    "julebrusId": 2,
+    "julebrus": { "id": 2, "classifiedName": "Oppegard" },
+    "createdAt": "2023-12-01T17:38:10.309Z"
+  },
+  {
+    "id": 53,
+    "taste": 2,
+    "smell": 3,
+    "color": 2,
+    "julebrusId": 2,
+    "julebrus": { "id": 2, "classifiedName": "Oppegard" },
+    "createdAt": "2023-12-01T17:38:12.698Z"
+  },
+  {
+    "id": 54,
+    "taste": 2,
+    "smell": 2,
+    "color": 3,
+    "julebrusId": 1,
+    "julebrus": { "id": 1, "classifiedName": "Nøisom Gamlebyens" },
+    "createdAt": "2023-12-01T17:38:15.079Z"
+  },
+  {
+    "id": 55,
+    "taste": 3,
+    "smell": 2,
+    "color": 4,
+    "julebrusId": 1,
+    "julebrus": { "id": 1, "classifiedName": "Nøisom Gamlebyens" },
+    "createdAt": "2023-12-01T17:38:16.234Z"
+  },
+  {
+    "id": 56,
+    "taste": 1,
+    "smell": 2,
+    "color": 3,
+    "julebrusId": 2,
+    "julebrus": { "id": 2, "classifiedName": "Oppegard" },
+    "createdAt": "2023-12-01T17:38:18.999Z"
+  },
+  {
+    "id": 57,
+    "taste": 1,
+    "smell": 1,
+    "color": 1,
+    "julebrusId": 2,
+    "julebrus": { "id": 2, "classifiedName": "Oppegard" },
+    "createdAt": "2023-12-01T17:38:37.680Z"
+  },
+  {
+    "id": 58,
+    "taste": 1,
+    "smell": 1,
+    "color": 2,
+    "julebrusId": 2,
+    "julebrus": { "id": 2, "classifiedName": "Oppegard" },
+    "createdAt": "2023-12-01T17:38:49.969Z"
+  },
+  {
+    "id": 59,
+    "taste": 1,
+    "smell": 2,
+    "color": 3,
+    "julebrusId": 2,
+    "julebrus": { "id": 2, "classifiedName": "Oppegard" },
+    "createdAt": "2023-12-01T17:38:51.653Z"
+  },
+  {
+    "id": 60,
+    "taste": 2,
+    "smell": 3,
+    "color": 4,
+    "julebrusId": 3,
+    "julebrus": { "id": 3, "classifiedName": "Hamar / Lillehammer" },
+    "createdAt": "2023-12-01T17:44:02.252Z"
+  },
+  {
+    "id": 61,
+    "taste": 3,
+    "smell": 1,
+    "color": 1,
+    "julebrusId": 3,
+    "julebrus": { "id": 3, "classifiedName": "Hamar / Lillehammer" },
+    "createdAt": "2023-12-01T17:44:10.834Z"
+  },
+  {
+    "id": 62,
+    "taste": 3,
+    "smell": 3,
+    "color": 2,
+    "julebrusId": 3,
+    "julebrus": { "id": 3, "classifiedName": "Hamar / Lillehammer" },
+    "createdAt": "2023-12-01T17:44:11.550Z"
+  },
+  {
+    "id": 63,
+    "taste": 3,
+    "smell": 5,
+    "color": 4,
+    "julebrusId": 3,
+    "julebrus": { "id": 3, "classifiedName": "Hamar / Lillehammer" },
+    "createdAt": "2023-12-01T17:44:12.991Z"
+  },
+  {
+    "id": 64,
+    "taste": 2,
+    "smell": 4,
+    "color": 4,
+    "julebrusId": 3,
+    "julebrus": { "id": 3, "classifiedName": "Hamar / Lillehammer" },
+    "createdAt": "2023-12-01T17:44:25.998Z"
+  },
+  {
+    "id": 65,
+    "taste": 4,
+    "smell": 1,
+    "color": 1,
+    "julebrusId": 4,
+    "julebrus": { "id": 4, "classifiedName": "Ringnes" },
+    "createdAt": "2023-12-01T17:44:27.667Z"
+  },
+  {
+    "id": 66,
+    "taste": 3,
+    "smell": 4,
+    "color": 4,
+    "julebrusId": 4,
+    "julebrus": { "id": 4, "classifiedName": "Ringnes" },
+    "createdAt": "2023-12-01T17:44:28.202Z"
+  },
+  {
+    "id": 67,
+    "taste": 2,
+    "smell": 2,
+    "color": 4,
+    "julebrusId": 3,
+    "julebrus": { "id": 3, "classifiedName": "Hamar / Lillehammer" },
+    "createdAt": "2023-12-01T17:44:28.520Z"
+  },
+  {
+    "id": 68,
+    "taste": 4,
+    "smell": 5,
+    "color": 5,
+    "julebrusId": 3,
+    "julebrus": { "id": 3, "classifiedName": "Hamar / Lillehammer" },
+    "createdAt": "2023-12-01T17:44:28.852Z"
+  },
+  {
+    "id": 69,
+    "taste": 5,
+    "smell": 5,
+    "color": 5,
+    "julebrusId": 4,
+    "julebrus": { "id": 4, "classifiedName": "Ringnes" },
+    "createdAt": "2023-12-01T17:44:38.064Z"
+  },
+  {
+    "id": 70,
+    "taste": 5,
+    "smell": 5,
+    "color": 5,
+    "julebrusId": 4,
+    "julebrus": { "id": 4, "classifiedName": "Ringnes" },
+    "createdAt": "2023-12-01T17:45:06.297Z"
+  },
+  {
+    "id": 71,
+    "taste": 5,
+    "smell": 5,
+    "color": 5,
+    "julebrusId": 4,
+    "julebrus": { "id": 4, "classifiedName": "Ringnes" },
+    "createdAt": "2023-12-01T17:45:14.804Z"
+  },
+  {
+    "id": 72,
+    "taste": 3,
+    "smell": 3,
+    "color": 5,
+    "julebrusId": 4,
+    "julebrus": { "id": 4, "classifiedName": "Ringnes" },
+    "createdAt": "2023-12-01T17:45:18.138Z"
+  },
+  {
+    "id": 73,
+    "taste": 4,
+    "smell": 4,
+    "color": 4,
+    "julebrusId": 3,
+    "julebrus": { "id": 3, "classifiedName": "Hamar / Lillehammer" },
+    "createdAt": "2023-12-01T17:45:18.776Z"
+  },
+  {
+    "id": 74,
+    "taste": 2,
+    "smell": 3,
+    "color": 3,
+    "julebrusId": 4,
+    "julebrus": { "id": 4, "classifiedName": "Ringnes" },
+    "createdAt": "2023-12-01T17:45:27.574Z"
+  },
+  {
+    "id": 75,
+    "taste": 1,
+    "smell": 1,
+    "color": 1,
+    "julebrusId": 3,
+    "julebrus": { "id": 3, "classifiedName": "Hamar / Lillehammer" },
+    "createdAt": "2023-12-01T17:45:43.120Z"
+  },
+  {
+    "id": 76,
+    "taste": 1,
+    "smell": 1,
+    "color": 4,
+    "julebrusId": 3,
+    "julebrus": { "id": 3, "classifiedName": "Hamar / Lillehammer" },
+    "createdAt": "2023-12-01T17:45:57.951Z"
+  },
+  {
+    "id": 77,
+    "taste": 5,
+    "smell": 5,
+    "color": 5,
+    "julebrusId": 3,
+    "julebrus": { "id": 3, "classifiedName": "Hamar / Lillehammer" },
+    "createdAt": "2023-12-01T17:46:02.648Z"
+  },
+  {
+    "id": 78,
+    "taste": 5,
+    "smell": 5,
+    "color": 5,
+    "julebrusId": 4,
+    "julebrus": { "id": 4, "classifiedName": "Ringnes" },
+    "createdAt": "2023-12-01T17:46:10.978Z"
+  },
+  {
+    "id": 79,
+    "taste": 1,
+    "smell": 1,
+    "color": 1,
+    "julebrusId": 4,
+    "julebrus": { "id": 4, "classifiedName": "Ringnes" },
+    "createdAt": "2023-12-01T17:46:11.325Z"
+  },
+  {
+    "id": 80,
+    "taste": 1,
+    "smell": 1,
+    "color": 4,
+    "julebrusId": 4,
+    "julebrus": { "id": 4, "classifiedName": "Ringnes" },
+    "createdAt": "2023-12-01T17:46:16.733Z"
+  },
+  {
+    "id": 81,
+    "taste": 3,
+    "smell": 3,
+    "color": 4,
+    "julebrusId": 4,
+    "julebrus": { "id": 4, "classifiedName": "Ringnes" },
+    "createdAt": "2023-12-01T17:46:23.190Z"
+  },
+  {
+    "id": 82,
+    "taste": 3,
+    "smell": 3,
+    "color": 3,
+    "julebrusId": 3,
+    "julebrus": { "id": 3, "classifiedName": "Hamar / Lillehammer" },
+    "createdAt": "2023-12-01T17:46:29.921Z"
+  },
+  {
+    "id": 83,
+    "taste": 4,
+    "smell": 3,
+    "color": 5,
+    "julebrusId": 3,
+    "julebrus": { "id": 3, "classifiedName": "Hamar / Lillehammer" },
+    "createdAt": "2023-12-01T17:47:32.663Z"
+  },
+  {
+    "id": 84,
+    "taste": 5,
+    "smell": 4,
+    "color": 5,
+    "julebrusId": 4,
+    "julebrus": { "id": 4, "classifiedName": "Ringnes" },
+    "createdAt": "2023-12-01T17:47:51.196Z"
+  },
+  {
+    "id": 85,
+    "taste": 3,
+    "smell": 4,
+    "color": 3,
+    "julebrusId": 4,
+    "julebrus": { "id": 4, "classifiedName": "Ringnes" },
+    "createdAt": "2023-12-01T17:48:31.336Z"
+  },
+  {
+    "id": 86,
+    "taste": 3,
+    "smell": 2,
+    "color": 4,
+    "julebrusId": 5,
+    "julebrus": { "id": 5, "classifiedName": "Romas Brune" },
+    "createdAt": "2023-12-01T17:54:00.581Z"
+  },
+  {
+    "id": 87,
+    "taste": 3,
+    "smell": 3,
+    "color": 3,
+    "julebrusId": 5,
+    "julebrus": { "id": 5, "classifiedName": "Romas Brune" },
+    "createdAt": "2023-12-01T17:54:00.762Z"
+  },
+  {
+    "id": 88,
+    "taste": 2,
+    "smell": 2,
+    "color": 4,
+    "julebrusId": 5,
+    "julebrus": { "id": 5, "classifiedName": "Romas Brune" },
+    "createdAt": "2023-12-01T17:54:03.406Z"
+  },
+  {
+    "id": 89,
+    "taste": 4,
+    "smell": 1,
+    "color": 1,
+    "julebrusId": 5,
+    "julebrus": { "id": 5, "classifiedName": "Romas Brune" },
+    "createdAt": "2023-12-01T17:54:03.604Z"
+  },
+  {
+    "id": 90,
+    "taste": 1,
+    "smell": 1,
+    "color": 1,
+    "julebrusId": 5,
+    "julebrus": { "id": 5, "classifiedName": "Romas Brune" },
+    "createdAt": "2023-12-01T17:54:05.017Z"
+  },
+  {
+    "id": 91,
+    "taste": 2,
+    "smell": 3,
+    "color": 5,
+    "julebrusId": 5,
+    "julebrus": { "id": 5, "classifiedName": "Romas Brune" },
+    "createdAt": "2023-12-01T17:54:10.015Z"
+  },
+  {
+    "id": 92,
+    "taste": 0,
+    "smell": 0,
+    "color": 0,
+    "julebrusId": 6,
+    "julebrus": { "id": 6, "classifiedName": "Oskar Sylte" },
+    "createdAt": "2023-12-01T17:54:11.114Z"
+  },
+  {
+    "id": 93,
+    "taste": 1,
+    "smell": 2,
+    "color": 5,
+    "julebrusId": 6,
+    "julebrus": { "id": 6, "classifiedName": "Oskar Sylte" },
+    "createdAt": "2023-12-01T17:54:13.890Z"
+  },
+  {
+    "id": 94,
+    "taste": 2,
+    "smell": 3,
+    "color": 5,
+    "julebrusId": 5,
+    "julebrus": { "id": 5, "classifiedName": "Romas Brune" },
+    "createdAt": "2023-12-01T17:54:18.670Z"
+  },
+  {
+    "id": 95,
+    "taste": 2,
+    "smell": 4,
+    "color": 3,
+    "julebrusId": 5,
+    "julebrus": { "id": 5, "classifiedName": "Romas Brune" },
+    "createdAt": "2023-12-01T17:54:21.069Z"
+  },
+  {
+    "id": 96,
+    "taste": 3,
+    "smell": 3,
+    "color": 4,
+    "julebrusId": 5,
+    "julebrus": { "id": 5, "classifiedName": "Romas Brune" },
+    "createdAt": "2023-12-01T17:54:23.204Z"
+  },
+  {
+    "id": 97,
+    "taste": 1,
+    "smell": 1,
+    "color": 1,
+    "julebrusId": 6,
+    "julebrus": { "id": 6, "classifiedName": "Oskar Sylte" },
+    "createdAt": "2023-12-01T17:54:26.247Z"
+  },
+  {
+    "id": 98,
+    "taste": 4,
+    "smell": 3,
+    "color": 4,
+    "julebrusId": 6,
+    "julebrus": { "id": 6, "classifiedName": "Oskar Sylte" },
+    "createdAt": "2023-12-01T17:54:30.228Z"
+  },
+  {
+    "id": 99,
+    "taste": 1,
+    "smell": 2,
+    "color": 4,
+    "julebrusId": 5,
+    "julebrus": { "id": 5, "classifiedName": "Romas Brune" },
+    "createdAt": "2023-12-01T17:54:30.457Z"
+  },
+  {
+    "id": 100,
+    "taste": 4,
+    "smell": 4,
+    "color": 4,
+    "julebrusId": 6,
+    "julebrus": { "id": 6, "classifiedName": "Oskar Sylte" },
+    "createdAt": "2023-12-01T17:54:38.964Z"
+  },
+  {
+    "id": 101,
+    "taste": 5,
+    "smell": 1,
+    "color": 5,
+    "julebrusId": 6,
+    "julebrus": { "id": 6, "classifiedName": "Oskar Sylte" },
+    "createdAt": "2023-12-01T17:54:40.476Z"
+  },
+  {
+    "id": 102,
+    "taste": 1,
+    "smell": 1,
+    "color": 5,
+    "julebrusId": 5,
+    "julebrus": { "id": 5, "classifiedName": "Romas Brune" },
+    "createdAt": "2023-12-01T17:54:41.035Z"
+  },
+  {
+    "id": 103,
+    "taste": 2,
+    "smell": 2,
+    "color": 1,
+    "julebrusId": 6,
+    "julebrus": { "id": 6, "classifiedName": "Oskar Sylte" },
+    "createdAt": "2023-12-01T17:54:41.978Z"
+  },
+  {
+    "id": 104,
+    "taste": 5,
+    "smell": 4,
+    "color": 4,
+    "julebrusId": 5,
+    "julebrus": { "id": 5, "classifiedName": "Romas Brune" },
+    "createdAt": "2023-12-01T17:54:45.101Z"
+  },
+  {
+    "id": 105,
+    "taste": 3,
+    "smell": 3,
+    "color": 3,
+    "julebrusId": 6,
+    "julebrus": { "id": 6, "classifiedName": "Oskar Sylte" },
+    "createdAt": "2023-12-01T17:54:46.739Z"
+  },
+  {
+    "id": 106,
+    "taste": 2,
+    "smell": 3,
+    "color": 4,
+    "julebrusId": 5,
+    "julebrus": { "id": 5, "classifiedName": "Romas Brune" },
+    "createdAt": "2023-12-01T17:54:51.504Z"
+  },
+  {
+    "id": 107,
+    "taste": 1,
+    "smell": 2,
+    "color": 4,
+    "julebrusId": 6,
+    "julebrus": { "id": 6, "classifiedName": "Oskar Sylte" },
+    "createdAt": "2023-12-01T17:55:24.685Z"
+  },
+  {
+    "id": 108,
+    "taste": 2,
+    "smell": 3,
+    "color": 2,
+    "julebrusId": 6,
+    "julebrus": { "id": 6, "classifiedName": "Oskar Sylte" },
+    "createdAt": "2023-12-01T17:55:28.776Z"
+  },
+  {
+    "id": 109,
+    "taste": 2,
+    "smell": 3,
+    "color": 3,
+    "julebrusId": 6,
+    "julebrus": { "id": 6, "classifiedName": "Oskar Sylte" },
+    "createdAt": "2023-12-01T17:55:28.893Z"
+  },
+  {
+    "id": 110,
+    "taste": 3,
+    "smell": 3,
+    "color": 4,
+    "julebrusId": 6,
+    "julebrus": { "id": 6, "classifiedName": "Oskar Sylte" },
+    "createdAt": "2023-12-01T17:55:36.586Z"
+  },
+  {
+    "id": 111,
+    "taste": 3,
+    "smell": 3,
+    "color": 2,
+    "julebrusId": 6,
+    "julebrus": { "id": 6, "classifiedName": "Oskar Sylte" },
+    "createdAt": "2023-12-01T17:56:00.781Z"
+  },
+  {
+    "id": 112,
+    "taste": 2,
+    "smell": 1,
+    "color": 1,
+    "julebrusId": 7,
+    "julebrus": { "id": 7, "classifiedName": "Julebrusfabrikkens Rampebrus" },
+    "createdAt": "2023-12-01T18:01:15.297Z"
+  },
+  {
+    "id": 113,
+    "taste": 1,
+    "smell": 2,
+    "color": 3,
+    "julebrusId": 7,
+    "julebrus": { "id": 7, "classifiedName": "Julebrusfabrikkens Rampebrus" },
+    "createdAt": "2023-12-01T18:01:16.724Z"
+  },
+  {
+    "id": 114,
+    "taste": 1,
+    "smell": 2,
+    "color": 3,
+    "julebrusId": 7,
+    "julebrus": { "id": 7, "classifiedName": "Julebrusfabrikkens Rampebrus" },
+    "createdAt": "2023-12-01T18:01:21.940Z"
+  },
+  {
+    "id": 115,
+    "taste": 2,
+    "smell": 2,
+    "color": 1,
+    "julebrusId": 7,
+    "julebrus": { "id": 7, "classifiedName": "Julebrusfabrikkens Rampebrus" },
+    "createdAt": "2023-12-01T18:01:32.646Z"
+  },
+  {
+    "id": 116,
+    "taste": 1,
+    "smell": 4,
+    "color": 1,
+    "julebrusId": 7,
+    "julebrus": { "id": 7, "classifiedName": "Julebrusfabrikkens Rampebrus" },
+    "createdAt": "2023-12-01T18:01:34.251Z"
+  },
+  {
+    "id": 117,
+    "taste": 4,
+    "smell": 1,
+    "color": 2,
+    "julebrusId": 8,
+    "julebrus": { "id": 8, "classifiedName": "Røros" },
+    "createdAt": "2023-12-01T18:01:40.452Z"
+  },
+  {
+    "id": 118,
+    "taste": 4,
+    "smell": 2,
+    "color": 4,
+    "julebrusId": 7,
+    "julebrus": { "id": 7, "classifiedName": "Julebrusfabrikkens Rampebrus" },
+    "createdAt": "2023-12-01T18:01:41.377Z"
+  },
+  {
+    "id": 119,
+    "taste": 1,
+    "smell": 5,
+    "color": 3,
+    "julebrusId": 7,
+    "julebrus": { "id": 7, "classifiedName": "Julebrusfabrikkens Rampebrus" },
+    "createdAt": "2023-12-01T18:01:43.584Z"
+  },
+  {
+    "id": 120,
+    "taste": 2,
+    "smell": 4,
+    "color": 1,
+    "julebrusId": 7,
+    "julebrus": { "id": 7, "classifiedName": "Julebrusfabrikkens Rampebrus" },
+    "createdAt": "2023-12-01T18:01:52.816Z"
+  },
+  {
+    "id": 121,
+    "taste": 2,
+    "smell": 3,
+    "color": 5,
+    "julebrusId": 8,
+    "julebrus": { "id": 8, "classifiedName": "Røros" },
+    "createdAt": "2023-12-01T18:01:55.558Z"
+  },
+  {
+    "id": 122,
+    "taste": 3,
+    "smell": 3,
+    "color": 4,
+    "julebrusId": 7,
+    "julebrus": { "id": 7, "classifiedName": "Julebrusfabrikkens Rampebrus" },
+    "createdAt": "2023-12-01T18:01:58.146Z"
+  },
+  {
+    "id": 123,
+    "taste": 1,
+    "smell": 1,
+    "color": 3,
+    "julebrusId": 8,
+    "julebrus": { "id": 8, "classifiedName": "Røros" },
+    "createdAt": "2023-12-01T18:02:07.090Z"
+  },
+  {
+    "id": 124,
+    "taste": 1,
+    "smell": 1,
+    "color": 1,
+    "julebrusId": 8,
+    "julebrus": { "id": 8, "classifiedName": "Røros" },
+    "createdAt": "2023-12-01T18:02:08.051Z"
+  },
+  {
+    "id": 125,
+    "taste": 2,
+    "smell": 1,
+    "color": 1,
+    "julebrusId": 7,
+    "julebrus": { "id": 7, "classifiedName": "Julebrusfabrikkens Rampebrus" },
+    "createdAt": "2023-12-01T18:02:09.395Z"
+  },
+  {
+    "id": 126,
+    "taste": 2,
+    "smell": 1,
+    "color": 3,
+    "julebrusId": 8,
+    "julebrus": { "id": 8, "classifiedName": "Røros" },
+    "createdAt": "2023-12-01T18:02:11.488Z"
+  },
+  {
+    "id": 127,
+    "taste": 1,
+    "smell": 4,
+    "color": 1,
+    "julebrusId": 7,
+    "julebrus": { "id": 7, "classifiedName": "Julebrusfabrikkens Rampebrus" },
+    "createdAt": "2023-12-01T18:02:14.835Z"
+  },
+  {
+    "id": 128,
+    "taste": 1,
+    "smell": 4,
+    "color": 2,
+    "julebrusId": 8,
+    "julebrus": { "id": 8, "classifiedName": "Røros" },
+    "createdAt": "2023-12-01T18:02:23.209Z"
+  },
+  {
+    "id": 129,
+    "taste": 3,
+    "smell": 2,
+    "color": 3,
+    "julebrusId": 8,
+    "julebrus": { "id": 8, "classifiedName": "Røros" },
+    "createdAt": "2023-12-01T18:02:32.684Z"
+  },
+  {
+    "id": 130,
+    "taste": 1,
+    "smell": 1,
+    "color": 4,
+    "julebrusId": 8,
+    "julebrus": { "id": 8, "classifiedName": "Røros" },
+    "createdAt": "2023-12-01T18:02:36.007Z"
+  },
+  {
+    "id": 131,
+    "taste": 1,
+    "smell": 2,
+    "color": 3,
+    "julebrusId": 8,
+    "julebrus": { "id": 8, "classifiedName": "Røros" },
+    "createdAt": "2023-12-01T18:02:41.271Z"
+  },
+  {
+    "id": 132,
+    "taste": 5,
+    "smell": 5,
+    "color": 5,
+    "julebrusId": 8,
+    "julebrus": { "id": 8, "classifiedName": "Røros" },
+    "createdAt": "2023-12-01T18:02:44.052Z"
+  },
+  {
+    "id": 133,
+    "taste": 1,
+    "smell": 1,
+    "color": 3,
+    "julebrusId": 8,
+    "julebrus": { "id": 8, "classifiedName": "Røros" },
+    "createdAt": "2023-12-01T18:02:55.901Z"
+  },
+  {
+    "id": 134,
+    "taste": 1,
+    "smell": 2,
+    "color": 1,
+    "julebrusId": 7,
+    "julebrus": { "id": 7, "classifiedName": "Julebrusfabrikkens Rampebrus" },
+    "createdAt": "2023-12-01T18:03:19.060Z"
+  },
+  {
+    "id": 135,
+    "taste": 1,
+    "smell": 2,
+    "color": 1,
+    "julebrusId": 8,
+    "julebrus": { "id": 8, "classifiedName": "Røros" },
+    "createdAt": "2023-12-01T18:03:26.284Z"
+  },
+  {
+    "id": 136,
+    "taste": 4,
+    "smell": 3,
+    "color": 5,
+    "julebrusId": 7,
+    "julebrus": { "id": 7, "classifiedName": "Julebrusfabrikkens Rampebrus" },
+    "createdAt": "2023-12-01T18:03:33.047Z"
+  },
+  {
+    "id": 137,
+    "taste": 5,
+    "smell": 2,
+    "color": 2,
+    "julebrusId": 8,
+    "julebrus": { "id": 8, "classifiedName": "Røros" },
+    "createdAt": "2023-12-01T18:04:09.193Z"
+  },
+  {
+    "id": 138,
+    "taste": 1,
+    "smell": 1,
+    "color": 2,
+    "julebrusId": 9,
+    "createdAt": "2023-12-01T18:07:20.381Z",
+    "julebrus": { "id": 9, "classifiedName": "Færder" }
+  },
+  {
+    "id": 139,
+    "taste": 1,
+    "smell": 2,
+    "color": 1,
+    "julebrusId": 9,
+    "createdAt": "2023-12-01T18:07:21.203Z",
+    "julebrus": { "id": 9, "classifiedName": "Færder" }
+  },
+  {
+    "id": 140,
+    "taste": 1,
+    "smell": 1,
+    "color": 2,
+    "julebrusId": 9,
+    "createdAt": "2023-12-01T18:07:22.796Z",
+    "julebrus": { "id": 9, "classifiedName": "Færder" }
+  },
+  {
+    "id": 141,
+    "taste": 1,
+    "smell": 3,
+    "color": 2,
+    "julebrusId": 9,
+    "createdAt": "2023-12-01T18:07:23.215Z",
+    "julebrus": { "id": 9, "classifiedName": "Færder" }
+  },
+  {
+    "id": 142,
+    "taste": 1,
+    "smell": 1,
+    "color": 2,
+    "julebrusId": 9,
+    "createdAt": "2023-12-01T18:07:32.981Z",
+    "julebrus": { "id": 9, "classifiedName": "Færder" }
+  },
+  {
+    "id": 143,
+    "taste": 1,
+    "smell": 1,
+    "color": 1,
+    "julebrusId": 9,
+    "createdAt": "2023-12-01T18:07:33.470Z",
+    "julebrus": { "id": 9, "classifiedName": "Færder" }
+  },
+  {
+    "id": 144,
+    "taste": 2,
+    "smell": 4,
+    "color": 1,
+    "julebrusId": 9,
+    "createdAt": "2023-12-01T18:07:38.805Z",
+    "julebrus": { "id": 9, "classifiedName": "Færder" }
+  },
+  {
+    "id": 145,
+    "taste": 1,
+    "smell": 1,
+    "color": 1,
+    "julebrusId": 9,
+    "createdAt": "2023-12-01T18:07:40.098Z",
+    "julebrus": { "id": 9, "classifiedName": "Færder" }
+  },
+  {
+    "id": 146,
+    "taste": 1,
+    "smell": 1,
+    "color": 3,
+    "julebrusId": 9,
+    "createdAt": "2023-12-01T18:07:47.738Z",
+    "julebrus": { "id": 9, "classifiedName": "Færder" }
+  },
+  {
+    "id": 147,
+    "taste": 1,
+    "smell": 1,
+    "color": 2,
+    "julebrusId": 9,
+    "createdAt": "2023-12-01T18:07:50.079Z",
+    "julebrus": { "id": 9, "classifiedName": "Færder" }
+  },
+  {
+    "id": 148,
+    "taste": 4,
+    "smell": 2,
+    "color": 3,
+    "julebrusId": 9,
+    "createdAt": "2023-12-01T18:07:57.826Z",
+    "julebrus": { "id": 9, "classifiedName": "Færder" }
+  },
+  {
+    "id": 149,
+    "taste": 2,
+    "smell": 1,
+    "color": 1,
+    "julebrusId": 9,
+    "createdAt": "2023-12-01T18:08:02.301Z",
+    "julebrus": { "id": 9, "classifiedName": "Færder" }
+  },
+  {
+    "id": 150,
+    "taste": 2,
+    "smell": 1,
+    "color": 2,
+    "julebrusId": 9,
+    "createdAt": "2023-12-01T18:08:08.665Z",
+    "julebrus": { "id": 9, "classifiedName": "Færder" }
+  }
+]
