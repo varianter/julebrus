@@ -85,7 +85,12 @@ export default function Home() {
           Variants årlige juletradisjon der vi stemmer på hvilken julebrus som
           er best
         </h1>
-        {(!hasLoaded || sodaArray.length !== 0) && (
+        {true && (
+          <>
+            <h2>Dahls vant!</h2>
+          </>
+        )}
+        {false && (!hasLoaded || sodaArray.length !== 0) && (
           <>
             <label htmlFor="julebrusId">
               Brus:
@@ -131,7 +136,7 @@ export default function Home() {
             )}
           </>
         )}
-        {hasLoaded && sodaArray.length === 0 && (
+        {false && hasLoaded && sodaArray.length === 0 && (
           <>
             <p className="text-xl">Du har stemt på all julebrusen!</p>
             <p className="text-l">Resultatene kommer snart 🎅🏻</p>
